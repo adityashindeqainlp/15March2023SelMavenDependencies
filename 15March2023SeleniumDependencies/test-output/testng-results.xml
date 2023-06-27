@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-27T16:20:19 GMT-04:00" name="Suite" finished-at="2023-06-27T16:20:24 GMT-04:00" duration-ms="5130">
+    <groups>
+      <group name="regression">
+        <method signature="P3_GroupsAttributeWithIncludeAndExclude.browserLaunch(java.lang.String)[pri:0, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="browserLaunch" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
+        <method signature="P3_GroupsAttributeWithIncludeAndExclude.titleValidation()[pri:2, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="titleValidation" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
+        <method signature="P3_GroupsAttributeWithIncludeAndExclude.loginValidation(java.lang.String,java.lang.String)[pri:3, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="loginValidation" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
+        <method signature="P3_GroupsAttributeWithIncludeAndExclude.tearDown()[pri:4, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="tearDown" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="P3_GroupsAttributeWithIncludeAndExclude.browserLaunch(java.lang.String)[pri:0, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="browserLaunch" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
+        <method signature="P3_GroupsAttributeWithIncludeAndExclude.urlValidation()[pri:1, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="urlValidation" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
+        <method signature="P3_GroupsAttributeWithIncludeAndExclude.titleValidation()[pri:2, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="titleValidation" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
+        <method signature="P3_GroupsAttributeWithIncludeAndExclude.tearDown()[pri:4, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="tearDown" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-06-27T16:20:19 GMT-04:00" name="Test" finished-at="2023-06-27T16:20:24 GMT-04:00" duration-ms="5130">
+      <class name="TestNG.P3_GroupsAttributeWithIncludeAndExclude">
+        <test-method signature="browserLaunch(java.lang.String)[pri:0, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" started-at="2023-06-27T16:20:19 GMT-04:00" name="browserLaunch" finished-at="2023-06-27T16:20:19 GMT-04:00" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'url' is required by @Test on method browserLaunch but has not been marked @Optional or defined
+in C:\Users\Aditya Shinde\git\15March2023SelMavenDependencies\15March2023SeleniumDependencies\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'url' is required by @Test on method browserLaunch but has not been marked @Optional or defined
+in C:\Users\Aditya Shinde\git\15March2023SelMavenDependencies\15March2023SeleniumDependencies\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="urlValidation()[pri:1, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" started-at="2023-06-27T16:20:19 GMT-04:00" name="urlValidation" finished-at="2023-06-27T16:20:19 GMT-04:00" duration-ms="6" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "TestNG.P3_GroupsAttributeWithIncludeAndExclude.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "TestNG.P3_GroupsAttributeWithIncludeAndExclude.driver" is null
+at TestNG.P3_GroupsAttributeWithIncludeAndExclude.urlValidation(P3_GroupsAttributeWithIncludeAndExclude.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlValidation -->
+        <test-method signature="titleValidation()[pri:2, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" started-at="2023-06-27T16:20:19 GMT-04:00" name="titleValidation" finished-at="2023-06-27T16:20:19 GMT-04:00" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "TestNG.P3_GroupsAttributeWithIncludeAndExclude.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "TestNG.P3_GroupsAttributeWithIncludeAndExclude.driver" is null
+at TestNG.P3_GroupsAttributeWithIncludeAndExclude.titleValidation(P3_GroupsAttributeWithIncludeAndExclude.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String)[pri:3, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" started-at="2023-06-27T16:20:19 GMT-04:00" name="loginValidation" finished-at="2023-06-27T16:20:19 GMT-04:00" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method loginValidation but has not been marked @Optional or defined
+in C:\Users\Aditya Shinde\git\15March2023SelMavenDependencies\15March2023SeleniumDependencies\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method loginValidation but has not been marked @Optional or defined
+in C:\Users\Aditya Shinde\git\15March2023SelMavenDependencies\15March2023SeleniumDependencies\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method signature="tearDown()[pri:4, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" started-at="2023-06-27T16:20:19 GMT-04:00" name="tearDown" finished-at="2023-06-27T16:20:24 GMT-04:00" duration-ms="5002" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "TestNG.P3_GroupsAttributeWithIncludeAndExclude.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "TestNG.P3_GroupsAttributeWithIncludeAndExclude.driver" is null
+at TestNG.P3_GroupsAttributeWithIncludeAndExclude.tearDown(P3_GroupsAttributeWithIncludeAndExclude.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG.P3_GroupsAttributeWithIncludeAndExclude -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
