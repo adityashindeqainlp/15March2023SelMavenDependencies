@@ -1,174 +1,265 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Login functionality validation]]>
+    </line>
+    <line>
+      <![CDATA[Login functionality validation]]>
+    </line>
+    <line>
+      <![CDATA[Login functionality validation]]>
+    </line>
+    <line>
+      <![CDATA[Login functionality validation]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-06-27T16:20:19 GMT-04:00" name="Suite" finished-at="2023-06-27T16:20:24 GMT-04:00" duration-ms="5130">
+  <suite started-at="2023-06-28T16:28:30 GMT-04:00" name="Default suite" finished-at="2023-06-28T16:29:43 GMT-04:00" duration-ms="73144">
     <groups>
-      <group name="regression">
-        <method signature="P3_GroupsAttributeWithIncludeAndExclude.browserLaunch(java.lang.String)[pri:0, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="browserLaunch" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
-        <method signature="P3_GroupsAttributeWithIncludeAndExclude.titleValidation()[pri:2, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="titleValidation" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
-        <method signature="P3_GroupsAttributeWithIncludeAndExclude.loginValidation(java.lang.String,java.lang.String)[pri:3, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="loginValidation" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
-        <method signature="P3_GroupsAttributeWithIncludeAndExclude.tearDown()[pri:4, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="tearDown" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="P3_GroupsAttributeWithIncludeAndExclude.browserLaunch(java.lang.String)[pri:0, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="browserLaunch" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
-        <method signature="P3_GroupsAttributeWithIncludeAndExclude.urlValidation()[pri:1, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="urlValidation" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
-        <method signature="P3_GroupsAttributeWithIncludeAndExclude.titleValidation()[pri:2, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="titleValidation" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
-        <method signature="P3_GroupsAttributeWithIncludeAndExclude.tearDown()[pri:4, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" name="tearDown" class="TestNG.P3_GroupsAttributeWithIncludeAndExclude"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-06-27T16:20:19 GMT-04:00" name="Test" finished-at="2023-06-27T16:20:24 GMT-04:00" duration-ms="5130">
-      <class name="TestNG.P3_GroupsAttributeWithIncludeAndExclude">
-        <test-method signature="browserLaunch(java.lang.String)[pri:0, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" started-at="2023-06-27T16:20:19 GMT-04:00" name="browserLaunch" finished-at="2023-06-27T16:20:19 GMT-04:00" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'url' is required by @Test on method browserLaunch but has not been marked @Optional or defined
-in C:\Users\Aditya Shinde\git\15March2023SelMavenDependencies\15March2023SeleniumDependencies\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'url' is required by @Test on method browserLaunch but has not been marked @Optional or defined
-in C:\Users\Aditya Shinde\git\15March2023SelMavenDependencies\15March2023SeleniumDependencies\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2023-06-28T16:28:30 GMT-04:00" name="Default test" finished-at="2023-06-28T16:29:43 GMT-04:00" duration-ms="73144">
+      <class name="TestNG.P5_DataProvidersAnotation">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestNG.P5_DataProvidersAnotation@2cb4893b]" started-at="2023-06-28T16:28:30 GMT-04:00" name="browserLaunch" finished-at="2023-06-28T16:28:40 GMT-04:00" duration-ms="10384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="urlValidation()[pri:1, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" started-at="2023-06-27T16:20:19 GMT-04:00" name="urlValidation" finished-at="2023-06-27T16:20:19 GMT-04:00" duration-ms="6" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "TestNG.P3_GroupsAttributeWithIncludeAndExclude.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "TestNG.P3_GroupsAttributeWithIncludeAndExclude.driver" is null
-at TestNG.P3_GroupsAttributeWithIncludeAndExclude.urlValidation(P3_GroupsAttributeWithIncludeAndExclude.java:42)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String)[pri:3, instance:TestNG.P5_DataProvidersAnotation@2cb4893b]" started-at="2023-06-28T16:28:40 GMT-04:00" name="loginValidation" data-provider="getData" finished-at="2023-06-28T16:28:42 GMT-04:00" duration-ms="2373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- urlValidation -->
-        <test-method signature="titleValidation()[pri:2, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" started-at="2023-06-27T16:20:19 GMT-04:00" name="titleValidation" finished-at="2023-06-27T16:20:19 GMT-04:00" duration-ms="1" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "TestNG.P3_GroupsAttributeWithIncludeAndExclude.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "TestNG.P3_GroupsAttributeWithIncludeAndExclude.driver" is null
-at TestNG.P3_GroupsAttributeWithIncludeAndExclude.titleValidation(P3_GroupsAttributeWithIncludeAndExclude.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleValidation -->
-        <test-method signature="loginValidation(java.lang.String,java.lang.String)[pri:3, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" started-at="2023-06-27T16:20:19 GMT-04:00" name="loginValidation" finished-at="2023-06-27T16:20:19 GMT-04:00" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method loginValidation but has not been marked @Optional or defined
-in C:\Users\Aditya Shinde\git\15March2023SelMavenDependencies\15March2023SeleniumDependencies\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method loginValidation but has not been marked @Optional or defined
-in C:\Users\Aditya Shinde\git\15March2023SelMavenDependencies\15March2023SeleniumDependencies\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
+            <line>
+              <![CDATA[Login functionality validation]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginValidation -->
-        <test-method signature="tearDown()[pri:4, instance:TestNG.P3_GroupsAttributeWithIncludeAndExclude@74e28667]" started-at="2023-06-27T16:20:19 GMT-04:00" name="tearDown" finished-at="2023-06-27T16:20:24 GMT-04:00" duration-ms="5002" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "TestNG.P3_GroupsAttributeWithIncludeAndExclude.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "TestNG.P3_GroupsAttributeWithIncludeAndExclude.driver" is null
-at TestNG.P3_GroupsAttributeWithIncludeAndExclude.tearDown(P3_GroupsAttributeWithIncludeAndExclude.java:78)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.P5_DataProvidersAnotation@2cb4893b]" started-at="2023-06-28T16:28:42 GMT-04:00" name="tearDown" finished-at="2023-06-28T16:28:48 GMT-04:00" duration-ms="5797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestNG.P3_GroupsAttributeWithIncludeAndExclude -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestNG.P5_DataProvidersAnotation@2cb4893b]" started-at="2023-06-28T16:28:48 GMT-04:00" name="browserLaunch" finished-at="2023-06-28T16:29:00 GMT-04:00" duration-ms="11796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String)[pri:3, instance:TestNG.P5_DataProvidersAnotation@2cb4893b]" started-at="2023-06-28T16:29:00 GMT-04:00" name="loginValidation" data-provider="getData" finished-at="2023-06-28T16:29:02 GMT-04:00" duration-ms="2076" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Addmin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at TestNG.P5_DataProvidersAnotation.loginValidation(P5_DataProvidersAnotation.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Login functionality validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.P5_DataProvidersAnotation@2cb4893b]" started-at="2023-06-28T16:29:02 GMT-04:00" name="tearDown" finished-at="2023-06-28T16:29:08 GMT-04:00" duration-ms="5798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestNG.P5_DataProvidersAnotation@2cb4893b]" started-at="2023-06-28T16:29:08 GMT-04:00" name="browserLaunch" finished-at="2023-06-28T16:29:17 GMT-04:00" duration-ms="9377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String)[pri:3, instance:TestNG.P5_DataProvidersAnotation@2cb4893b]" started-at="2023-06-28T16:29:17 GMT-04:00" name="loginValidation" data-provider="getData" finished-at="2023-06-28T16:29:20 GMT-04:00" duration-ms="2675" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login],
+expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login],
+expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at TestNG.P5_DataProvidersAnotation.loginValidation(P5_DataProvidersAnotation.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Login functionality validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.P5_DataProvidersAnotation@2cb4893b]" started-at="2023-06-28T16:29:20 GMT-04:00" name="tearDown" finished-at="2023-06-28T16:29:26 GMT-04:00" duration-ms="5717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:TestNG.P5_DataProvidersAnotation@2cb4893b]" started-at="2023-06-28T16:29:26 GMT-04:00" name="browserLaunch" finished-at="2023-06-28T16:29:35 GMT-04:00" duration-ms="9024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String)[pri:3, instance:TestNG.P5_DataProvidersAnotation@2cb4893b]" started-at="2023-06-28T16:29:35 GMT-04:00" name="loginValidation" data-provider="getData" finished-at="2023-06-28T16:29:37 GMT-04:00" duration-ms="2359" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adimin12345]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login],
+expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login],
+expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login],
+expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login],
+expected [https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index] but found [https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at TestNG.P5_DataProvidersAnotation.loginValidation(P5_DataProvidersAnotation.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Login functionality validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.P5_DataProvidersAnotation@2cb4893b]" started-at="2023-06-28T16:29:37 GMT-04:00" name="tearDown" finished-at="2023-06-28T16:29:43 GMT-04:00" duration-ms="5670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG.P5_DataProvidersAnotation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
