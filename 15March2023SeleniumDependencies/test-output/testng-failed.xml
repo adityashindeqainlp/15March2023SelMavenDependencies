@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="1" parallel="classes" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.P3_GroupsAttributeWithIncludeAndExclude">
+      <class name="TestNG.P5_DataProvidersAnotation">
         <methods>
-          <include name="browserLaunch"/>
           <include name="tearDown"/>
-          <include name="titleValidation"/>
-          <include name="loginValidation"/>
-          <include name="urlValidation"/>
+          <include name="browserLaunch"/>
+          <include name="loginValidation" invocation-numbers="1 2 3"/>
         </methods>
-      </class> <!-- TestNG.P3_GroupsAttributeWithIncludeAndExclude -->
+      </class> <!-- TestNG.P5_DataProvidersAnotation -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
