@@ -15,14 +15,15 @@ public class Log4jDemo {
 	public static void main(String[] args) {
 		
 		
-		System.out.println("\n Hello world..!  \n");
+		System.out.println(" Hello world..!");
+        
+		logger.trace("This is a trace test");
+		logger.info("This is an inforamtion message");
+		logger.warn("This ia a warning test");
+		logger.error("This is a error test");
+		logger.fatal("This is a fatal test");
+		logger.debug("This is a debug test");
 		
-		logger.trace("This is trace message");
-		logger.info("This is a information message");
-		logger.warn("This is a warning message");
-	    logger.error("This is an error message");
-		logger.fatal("This is a fatal message");
-		
-		System.out.println("\n  completed");
+		System.out.println("completed");
 	}
 }

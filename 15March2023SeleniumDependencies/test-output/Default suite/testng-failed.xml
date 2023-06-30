@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.P5_DataProvidersAnotation">
+      <class name="PageObjectModel.SampleTest">
         <methods>
+          <include name="loginValidation"/>
           <include name="tearDown"/>
-          <include name="browserLaunch"/>
-          <include name="loginValidation" invocation-numbers="1 2 3"/>
+          <include name="configuration"/>
         </methods>
-      </class> <!-- TestNG.P5_DataProvidersAnotation -->
+      </class> <!-- PageObjectModel.SampleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
