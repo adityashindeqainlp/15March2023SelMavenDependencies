@@ -1,57 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Button is display on webpage]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-06-29T16:02:02 GMT-04:00" name="Default suite" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="144">
+  <suite started-at="2023-06-30T14:58:35 GMT-04:00" name="Default suite" finished-at="2023-06-30T14:58:49 GMT-04:00" duration-ms="13884">
     <groups>
     </groups>
-    <test started-at="2023-06-29T16:02:02 GMT-04:00" name="Default test" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="144">
-      <class name="TestNG.P1_TestsScripts">
-        <test-method signature="aTestCase()[pri:1, instance:TestNG.P1_TestsScripts@563f38c4]" started-at="2023-06-29T16:02:02 GMT-04:00" name="aTestCase" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="12" status="PASS">
+    <test started-at="2023-06-30T14:58:35 GMT-04:00" name="Default test" finished-at="2023-06-30T14:58:49 GMT-04:00" duration-ms="13884">
+      <class name="Globalization.P3_ChromeOptions">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:Globalization.P3_ChromeOptions@350aac89]" started-at="2023-06-30T14:58:36 GMT-04:00" name="browserLaunch" finished-at="2023-06-30T14:58:47 GMT-04:00" duration-ms="11424" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aTestCase -->
-        <test-method signature="aTestCase()[pri:1, instance:TestNG.P1_TestsScripts@563f38c4]" started-at="2023-06-29T16:02:02 GMT-04:00" name="aTestCase" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="2" status="PASS">
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="loginValidation()[pri:0, instance:Globalization.P3_ChromeOptions@350aac89]" started-at="2023-06-30T14:58:47 GMT-04:00" name="loginValidation" finished-at="2023-06-30T14:58:49 GMT-04:00" duration-ms="1807" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Button is display on webpage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Globalization.P3_ChromeOptions@350aac89]" started-at="2023-06-30T14:58:49 GMT-04:00" name="tearDown" finished-at="2023-06-30T14:58:49 GMT-04:00" duration-ms="583" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aTestCase -->
-        <test-method signature="aTestCase()[pri:1, instance:TestNG.P1_TestsScripts@563f38c4]" started-at="2023-06-29T16:02:02 GMT-04:00" name="aTestCase" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aTestCase -->
-        <test-method signature="aTestCase()[pri:1, instance:TestNG.P1_TestsScripts@563f38c4]" started-at="2023-06-29T16:02:02 GMT-04:00" name="aTestCase" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aTestCase -->
-        <test-method signature="aTestCase()[pri:1, instance:TestNG.P1_TestsScripts@563f38c4]" started-at="2023-06-29T16:02:02 GMT-04:00" name="aTestCase" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aTestCase -->
-        <test-method signature="aTestCase()[pri:1, instance:TestNG.P1_TestsScripts@563f38c4]" started-at="2023-06-29T16:02:02 GMT-04:00" name="aTestCase" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aTestCase -->
-        <test-method signature="aTestCase()[pri:1, instance:TestNG.P1_TestsScripts@563f38c4]" started-at="2023-06-29T16:02:02 GMT-04:00" name="aTestCase" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aTestCase -->
-        <test-method signature="aTestCase()[pri:1, instance:TestNG.P1_TestsScripts@563f38c4]" started-at="2023-06-29T16:02:02 GMT-04:00" name="aTestCase" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aTestCase -->
-        <test-method signature="aTestCase()[pri:1, instance:TestNG.P1_TestsScripts@563f38c4]" started-at="2023-06-29T16:02:02 GMT-04:00" name="aTestCase" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aTestCase -->
-        <test-method signature="aTestCase()[pri:1, instance:TestNG.P1_TestsScripts@563f38c4]" started-at="2023-06-29T16:02:02 GMT-04:00" name="aTestCase" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aTestCase -->
-        <test-method signature="bTestCase()[pri:2, instance:TestNG.P1_TestsScripts@563f38c4]" started-at="2023-06-29T16:02:02 GMT-04:00" name="bTestCase" finished-at="2023-06-29T16:02:02 GMT-04:00" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bTestCase -->
-      </class> <!-- TestNG.P1_TestsScripts -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- Globalization.P3_ChromeOptions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

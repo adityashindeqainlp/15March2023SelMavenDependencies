@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PageObjectModel.SampleTest">
+      <class name="Globalization.P3_ChromeOptions">
         <methods>
           <include name="loginValidation"/>
           <include name="tearDown"/>
-          <include name="configuration"/>
+          <include name="browserLaunch"/>
         </methods>
-      </class> <!-- PageObjectModel.SampleTest -->
+      </class> <!-- Globalization.P3_ChromeOptions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

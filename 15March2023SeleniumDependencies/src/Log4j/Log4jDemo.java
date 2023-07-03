@@ -27,3 +27,4 @@ public class Log4jDemo {
 		System.out.println("completed");
 	}
 }
+
